@@ -84,7 +84,7 @@ public class ChatQwenAITest extends SpringBootTests {
 
         String msg = llmChain.call(new HashMap() {{
             put("input_language", "English");
-            put("output_language", "French");
+            put("output_language", "Chinese");
             put("text", "I love programming.");
         }}).getText();
 

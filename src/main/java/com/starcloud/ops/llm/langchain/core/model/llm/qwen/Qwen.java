@@ -34,7 +34,8 @@ public class Qwen extends BaseLLM<GenerationResult> {
 
     private static QwenAIConfig qwenAIConfig = SpringUtil.getBean("qwenAIConfig");
 
-    private String model = Generation.Models.QWEN_V1;
+//    private String model = Generation.Models.QWEN_V1;
+    private String model = "qwen-max";
 
     private String prompt;
 
